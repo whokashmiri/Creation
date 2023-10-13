@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="highlight">
+
+    </div>
+
+
+<div class="eye_overlay" id="eye_overlay">
+    <div class="eye_details">
+        <i class="fa-solid fa-circle-xmark" id="eye_close" style="align-self: flex-start; cursor: pointer;"></i>
+        <img id="eye_img" src="" alt="image">
+        <h1 class="eye_title"  id="eye_title"></h1>
+        <p class="eye_act" id="eye_act"></p>
+    </div>
+    
+
+</div>
+
+    
+
+    <div class="overlay"  id="update_form">
+        <div class="update_form">
+            <i class="fa-solid fa-circle-xmark" id="close" style="align-self: flex-end; cursor: pointer;"></i>
+            <h1 class="section_title">Update Place</h1>
+            <input type="text" id="title_up" placeholder="Title">
+            <input type="text" id="activities_up" placeholder="Activities">
+            <input type="url" id="imageURL_up" placeholder="Image URL">
+            <button class="crateBn" id="Update">Update</button>
+        </div>
+
+    </div>
+
+   
+
+
+
+   
+
+    <div class="create" >
+        <h1 class="section_title">Create New Place</h1>
+        <div class="fields">
+            <div class="input_box">
+            <input type="text" id="title" placeholder="Title">
+            <p id="title_err"> </p>
+        </div>
+        <div class="input_box">
+            <input type="text" id="activities" placeholder="Activities">
+            <p id="activities_err"></p> 
+        </div>
+        <div class="input_box">
+            <input type="url" id="imageURL" placeholder="Image URL">
+            <p id="url_err"></p>
+        </div>
+            <button class="crateBn" id="create">Create</button>
+        </div>
+    </div>
+    
+
+
+<div class="main">
+   <!-- <div class="card">
+    <div class="card-img">
+        <img src="https://images.pexels.com/photos/398154/pexels-photo-398154.jpeg?auto=compress&cs=tinysrgb&w=800" alt="">
+    </div>
+    <div class="card-details">
+        <h1>Malaysia</h1>
+        <p>Surfing  .  Architecture</p>
+        <button>Explore</button>
+    </div> -->
+   </div>
+
+</div>
+
+<script src="./script.js"></script>
+    
+</body>
+</html>
